@@ -36,12 +36,7 @@ class Cat(Animal):
 
 
 def main():
-    array_size = 3
-    animals = []
-
-    animals.append(Dog("Buddy", 3, "Labrador"))
-    animals.append(Cat("Whiskers", 2, True))
-    animals.append(Dog("Max", 4, "German Shepherd"))
+    animals = [Dog("Buddy", 3, "Labrador"), Cat("Whiskers", 2, True), Dog("Max", 4, "German Shepherd")]
 
     for animal in animals:
         animal.make_sound()
